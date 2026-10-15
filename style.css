@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Young Serif', serif;
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+.header {
+    margin: 10px;
+    color: white;
+}
+.section-one__text{
+    margin: 10px;
+}
+.section-one{
+    margin: 10px;
+}
+.header__contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.header__contact:hover
+{
+    background-color: orangered;
+    color: black;
+}
+
+.header__name 
+{
+    font-size: 55px;
+    
+}
+
+.header__title {
+    font-size: 20px;
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.section-four__list{
+    padding: 20px;
+}
+.section-five__list,.section-four__list {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.section-one__text,
+.section-two__text,
+.section-three__text,
+.section-four__list,
+.section-five__list {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer__social 
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footer__social a 
+{
+    color: skyblue;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.section-four,
+.section-three,
+.section-two,
+.section-five {
+    background-color: orangered;
+    color: white;
+    padding: 30px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 250px;
+    color: black;
+    vertical-align: top;
+    margin: 10px;
+}
+.footer__copyright{
+    padding-top: 20px;
+}
+.cfooter , .csection-one ,.csection-one a {
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+.contact-form{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form__input , .contact-form__textarea{
+    padding: 20px;
+    border: none;
+    border-bottom: solid black 1px;
+    text-align: center;
+}
+.csection-one__title {
+    color: rgb(180, 5, 5);
+    font-size: 30px;
+}
+.csection-one a {
+    font-size: 35px;
+    color: white;
+}
+
+.contact-form__summit{
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+    border: solid black 1px;
+    font-size: 15px;
+
+}
+.contact-form__summit:hover{
+    background-color: tomato;
+}
+.cfooter__copyrights{
+    padding-top: 20px;
+}
+.bg , .contact 
+{
+            background-image: url("bg.jpeg");
+            background-size: cover;
+            background-position: center;
+            color : white;
+}
+.contact{
+    background-color: black;
+}
