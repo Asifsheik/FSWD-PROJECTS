@@ -99,6 +99,7 @@ body {
 .section-three,
 .section-two,
 .section-five {
+    text-align: center;
     background-color: orangered;
     color: white;
     padding: 30px;
