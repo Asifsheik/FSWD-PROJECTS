@@ -9,6 +9,7 @@ body {
 
 .container {
     text-align: center;
+    gap: 10px;
 }
 
 .header {
@@ -16,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
 }
 .myself{
     display: flex;
@@ -68,8 +69,7 @@ body {
     color: white;
 }
 .section-one h3{
-    color: red;
-}
+    color: rgb(239, 74, 19)}
 .section-one:hover{
 border-color: orangered;
     box-shadow: 0 8px 20px rgb(65, 27, 27);
@@ -108,8 +108,12 @@ border-color: orangered;
 .section-three h3,
 .section-four h3,
 .section-five h3{
-    padding-bottom: 20px;
+    padding : 5px;
+    width: auto;
     color: red;
+    background-color: black;
+    border-radius: 30px;
+    margin-bottom: 10px;
 }
 
 .section-five__list,.section-four__list {
