@@ -156,16 +156,17 @@ border-color: orangered;
     text-align: center;
 }
 .contact-form{
-    width: 300px;
-    margin: 0 auto;
+    width: 350px;
+    margin: auto;
     padding: 20px;
+    color: white;
 }
 
 .contact-form__input , .contact-form__textarea{
     padding: 20px;
     border: none;
     border-bottom: solid black 1px;
-    text-align: center;
+    width: 250px;
 }
 .csection-one__title {
     color: rgb(180, 5, 5);
@@ -175,14 +176,20 @@ border-color: orangered;
     font-size: 35px;
     color: white;
 }
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .contact-form__summit{
-    margin-left: 50px;
+    width: 150px;
     padding: 10px 20px;
-    background-color: orangered;
+    background-color: red;
     color: black;
     border: solid black 1px;
     font-size: 15px;
+    border-radius: 5px;
 
 }
 .contact-form__summit:hover{
