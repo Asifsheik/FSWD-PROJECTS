@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Young Serif', serif;
@@ -12,6 +13,15 @@ body {
 
 .header {
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.myself{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 .section-one__text{
     margin: 10px;
@@ -49,10 +59,23 @@ body {
 .section-one{
     font-size: 20px;
     margin-top: 20px;
+    color: white; 
+    background-color: transparent;         
 }
 .section-one__text{
     font-size: 20px;
     margin : 20px;
+    color: white;
+}
+.section-one h3{
+    color: red;
+}
+.section-one:hover{
+border-color: orangered;
+    box-shadow: 0 8px 20px rgb(65, 27, 27);
+    transform: translateY(-5px);
+    cursor: pointer;
+    color: black;
 }
 .section-two,
 .section-three,
@@ -60,10 +83,10 @@ body {
 .section-five {
     font-size: 20px;
     margin-top: 20px;
-    background-color: black;
+    background-color: transparent;
     margin: 10px;
     border-radius: 20px;
-    width: 250px;
+    width: 350px;
     padding: 50px;
     height: auto;
     gap: 20px;
@@ -71,6 +94,15 @@ body {
     justify-content: space-between;
     text-align: center;
     align-items: center;
+}
+.section-two:hover,
+.section-three:hover,
+.section-four:hover,
+.section-five:hover{
+    border-color: red;
+    box-shadow: 0 8px 20px rgb(65, 27, 27);
+    transform: translateY(-5px);
+    cursor: pointer;
 }
 .section-two h3,
 .section-three h3,
@@ -163,11 +195,10 @@ body {
 {
             background-image: url("bg.jpeg");
             background-size: cover;
-            background-position: center;
-            color : white;
-}
-.contact{
-    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 .section-five a{
     text-decoration: none;
