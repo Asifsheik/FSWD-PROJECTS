@@ -68,7 +68,7 @@ body {
     height: auto;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
 }
