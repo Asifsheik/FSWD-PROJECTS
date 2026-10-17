@@ -7,12 +7,10 @@ body {
 }
 
 .container {
-    padding: 50px;
     text-align: center;
 }
 
 .header {
-    margin: 10px;
     color: white;
 }
 .section-one__text{
@@ -48,33 +46,46 @@ body {
     font-size: 20px;
 }
 
-.section-one,
+.section-one{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.section-one__text{
+    font-size: 20px;
+    margin : 20px;
+}
 .section-two,
 .section-three,
 .section-four,
 .section-five {
     font-size: 20px;
     margin-top: 20px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+    width: 250px;
+    padding: 50px;
+    height: auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+.section-two h3,
+.section-three h3,
+.section-four h3,
+.section-five h3{
+    padding-bottom: 20px;
+    color: red;
 }
 
-.section-four__list{
-    padding: 20px;
-}
 .section-five__list,.section-four__list {
     text-decoration: none;
     list-style-type: none;
 
 }
 
-.section-one__text,
-.section-two__text,
-.section-three__text,
-.section-four__list,
-.section-five__list {
-    font-size: 20px;
-    padding: 10px;
-
-}
 
 .footer {
     color: white;
@@ -95,20 +106,13 @@ body {
     display: inline-block;
 }
 
-.section-four,
-.section-three,
-.section-two,
-.section-five {
-    text-align: center;
-    background-color: orangered;
+.section-cards {
     color: white;
-    padding: 30px;
-    height: 200px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 200px;
     border-radius: 10px;
-    width: 250px;
-    color: black;
-    vertical-align: top;
     margin: 10px;
 }
 .footer__copyright{
@@ -164,4 +168,8 @@ body {
 }
 .contact{
     background-color: black;
+}
+.section-five a{
+    text-decoration: none;
+    color: #A435F0;
 }
