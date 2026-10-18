@@ -69,7 +69,8 @@ body {
     color: white;
 }
 .section-one h3{
-    color: rgb(239, 74, 19)}
+    color: red
+}
 .section-one:hover{
 border-color: orangered;
     box-shadow: 0 8px 20px rgb(65, 27, 27);
